@@ -2,7 +2,7 @@ Sure! Here's a ready-to-use `README.md` file formatted specifically for GitHub:
 
 ---
 
-````markdown
+
 # 🦋 Lepidex - Butterfly Species Classifier API
 
 Lepidex is a machine learning-powered REST API that identifies butterfly species from uploaded images using a trained Keras model and FastAPI.
@@ -21,9 +21,9 @@ cd lepidex-backend
 
 ```bash
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+uv init -p 3.9
+uv lock
+uv sync
 ```
 
 ### 3. Run the API
